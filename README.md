@@ -1,0 +1,2 @@
+I noted the absence of a single source to help me when learning how to build sliding menus with JQuery. So here is an example of how you can use JQuery to build a fully responsive web-site with various sliding in/out menus.
+Hope this is of some use to the community ... EJK

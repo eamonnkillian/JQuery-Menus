@@ -1,0 +1,211 @@
+/* 
+    Created on : 23-Jun-2014
+    Description: The main styles for the Simple SLAPI-Connect Site 
+    Author     : eamonnkillian
+*/
+
+/* ------------------------------------
+    Set up a font for the Simple Site
+    Check out www.google.com/fonts for 
+    examples of all kinds of fonts...
+--------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+/* ------------------------------------
+    We will ensure there are no margins
+    or padding set from the outset ...
+--------------------------------------- */
+
+* {
+    margin:0;
+    padding:0;
+}
+
+/* ------------------------------------
+    And to create a major contrast we'll
+    use the font we loaded above set a 
+    background color for the whole page
+    of red, a margin to generate a border 
+    effect, a font color black and no
+    overflow (scrolling up and down, left
+    or right) ...
+--------------------------------------- */
+
+body {
+    background-color: #ff0000;
+    color:#000;
+    font-family: 'Cabin', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #3333ff;
+}
+
+/* -------------------------------------
+    The main container 
+---------------------------------------- */
+
+.mainContainer {
+    position: relative;
+    float: left;
+    top: 0;
+    background-color: #fff;
+} 
+
+/* -------------------------------------
+    The heading section
+---------------------------------------- */
+
+.mainHeader {
+    position: relative;
+    float: left;
+    top: 0;
+    background-color: #ff9966;
+}
+
+.mainTitle {
+    position: absolute;
+}
+
+.logoImage {
+    position: relative;
+    float: right;
+}
+
+/* -------------------------------------
+    The menu section
+---------------------------------------- */
+
+.mainMenu {
+    position: relative;
+    float: left;
+    background-color: #cc66ff;
+    font-size: 0.7em;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* -------------------------------------
+    The menu section
+---------------------------------------- */
+
+.mainView {
+    position: relative;
+    float: left;
+    background-color: #ffffcc;
+}
+
+.centralWords {
+    font-size: 0.8em;
+    background-color: green;
+}
+
+/* -------------------------------------
+    The footer section
+---------------------------------------- */
+
+.mainFooter {
+    position: relative;
+    float: left;
+    background-color: #99ff99;
+}
+
+.mainCopyright {
+    position: relative;
+    float: left;
+}
+
+.mainContactInfo {
+    position: relative;
+    float: right;
+}
+
+/* -------------------------------------
+    The Left Hand Side Menu section
+---------------------------------------- */
+
+.lhsMenu {
+    position: absolute;
+    left: -40%;
+    background-color: #000;
+    color: #fff;
+}
+
+.lhsMenu nav ul li {
+    display: block;
+}
+
+.topMenu {
+    position: absolute;
+    top: -40%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.topMenu nav ul li {
+    display: inline-block;
+}
+
+.rhsMenu {
+    position: absolute;
+    right: -40%;
+    background-color: #000;
+    color: #fff;
+}
+
+.rhsMenu nav ul li {
+    display: block;
+    margin-left: 20%;
+}
+
+.bottomMenu {
+    position: absolute;
+    bottom: -20%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.bottomMenu nav ul li {
+    display: inline-block;
+}
+
+#menuLogoLeft {
+    position: relative;
+    float: left;
+    display: none;
+}
+
+#menuLogoRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#menuLogoTop {
+    position: relative;
+    float: left;
+    display: none;
+}
+
+#menuLogoBottom {
+    position: relative;
+    float: left;
+    display: none;
+}
+
+.closeMenu {
+    position: relative;
+    float: right;
+}
